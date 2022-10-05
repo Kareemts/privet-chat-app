@@ -1,0 +1,72 @@
+body{
+    color: white;
+}
+.chat-window{
+    height: 80vh;
+    padding: 10px;
+    margin:10vh 0 10vh;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+.chat-window::-webkit-scrollbar{
+    display: none;
+}
+form{
+    height: 10vh;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    max-width: 728px;
+    font-size: 1.5rem;
+    display: flex;
+}
+form button{
+    width: 20%;
+    background-color:blueviolet;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form input{
+    line-height: 1.5;
+    width: 100%;
+    font-size: 1.5rem;
+    color: black;
+    outline: 0;
+    border: none;
+    padding: 0 10px;
+}
+.message{
+    display: flex;
+    align-items: center;
+}
+.message img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    margin: 2px 5px;
+    padding: 4px;
+}
+.message p{
+    color: white;
+    max-width: 500px;
+    margin-bottom: 12px;
+    line-height: 24px;
+    padding: 10px 20px;
+}
+.sent {
+    flex-direction: row-reverse;
+}
+.sent p{
+    background-color: blueviolet;
+    border-radius: 20px;
+    align-self: flex-end;
+}
+.received p{
+    background-color: darkviolet;
+}

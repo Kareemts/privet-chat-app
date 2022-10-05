@@ -1,0 +1,16 @@
+header{
+    background-color: blue;
+    height: 10vh;
+    min-height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    box-sizing: border-box;
+    max-width: 728px;
+}
+.Go-Out{
+    cursor: pointer;
+}
